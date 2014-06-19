@@ -1,0 +1,8 @@
+{
+  "name": "manovotny/wp-array-util",
+  "version": "0.0.0",
+  "description": "A clever array utility for WordPress development.",
+  "type": "library",
+  "homepage": "https://github.com/manovotny/wp-array-util/",
+  "license": "GPL-3.0+"
+}
