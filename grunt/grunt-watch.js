@@ -14,6 +14,15 @@ module.exports = function (grunt) {
             tasks: [
                 'js'
             ]
+        },
+        tests: {
+            files: [
+                'classes/**/*.php',
+                'tests/**/*.php'
+            ],
+            tasks: [
+                'tests'
+            ]
         }
     });
 

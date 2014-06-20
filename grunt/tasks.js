@@ -8,8 +8,9 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('build', [
+        'clean',
         'js',
-        'bump'
+        'php'
     ]);
 
     grunt.registerTask('bump', [
@@ -18,6 +19,11 @@ module.exports = function (grunt) {
 
     grunt.registerTask('js', [
         'jslint'
+    ]);
+
+    grunt.registerTask('php', [
+        'phpunit',
+        'phplint'
     ]);
 
 };
