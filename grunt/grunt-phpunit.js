@@ -4,6 +4,7 @@ module.exports = function (grunt) {
 
     grunt.config('phpunit', {
         classes: {
+            coverage: true,
             dir: 'tests'
         },
         options: {
