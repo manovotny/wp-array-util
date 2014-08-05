@@ -16,17 +16,17 @@ class WP_Array_Util_Test extends PHPUnit_Framework_TestCase {
 
     protected function setUp() {
 
-        $this->existing_array = [
+        $this->existing_array = array(
             $this->random_string(),
             $this->random_string(),
             $this->random_string()
-        ];
+        );
 
-        $this->items_to_add = [
+        $this->items_to_add = array(
             $this->random_string(),
             $this->random_string(),
             $this->random_string()
-        ];
+        );
 
         $this->wp_array_util = WP_Array_Util::get_instance();
 
