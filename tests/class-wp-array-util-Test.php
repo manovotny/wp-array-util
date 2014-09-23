@@ -4,9 +4,9 @@ require 'classes/class-wp-array-util.php';
 
 class WP_Array_Util_Test extends PHPUnit_Framework_TestCase {
 
-    protected $existing_array;
-    protected $items_to_add;
-    protected $wp_array_util;
+    private $existing_array;
+    private $items_to_add;
+    private $wp_array_util;
 
     public function random_string() {
 
