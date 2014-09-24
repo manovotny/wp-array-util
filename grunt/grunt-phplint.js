@@ -2,10 +2,12 @@ module.exports = function (grunt) {
 
     'use strict';
 
+    var config = require('config');
+
     grunt.config('phplint', {
         files: [
-            'classes/**/*.php',
-            'tests/**/*.php'
+            config.paths.source + '/**/*.php',
+            '*.php'
         ]
     });
 

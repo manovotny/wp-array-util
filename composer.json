@@ -3,9 +3,42 @@
     "version": "0.1.1",
     "description": "A clever array utility for WordPress development.",
     "type": "library",
-    "homepage": "https://github.com/manovotny/wp-array-util/",
+    "homepage": "https://github.com/manovotny/wp-array-util",
+    "authors": [
+        {
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com",
+            "role": "Developer"
+        }
+    ],
     "license": "GPL-3.0+",
+    "keywords": [
+        "array",
+        "php",
+        "utility",
+        "wordpress"
+    ],
+    "require": {
+
+    },
     "require-dev": {
+        "manovotny/wp-phpunit-helpers": "0.1.0",
         "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "files": [
+            "wp-array-util.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "vendor/phpunit",
+            "vendor/sebastian",
+            "vendor/symfony"
+        ]
     }
 }

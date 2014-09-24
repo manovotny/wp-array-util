@@ -1,6 +1,6 @@
 <?php
 
-require 'classes/class-wp-array-util.php';
+require_once 'vendor/autoload.php';
 
 class WP_Array_Util_Test extends PHPUnit_Framework_TestCase {
 
