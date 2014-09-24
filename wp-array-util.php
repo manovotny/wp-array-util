@@ -6,7 +6,7 @@
  * Plugin Name: WP Array Util
  * Plugin URI: https://github.com/manovotny/wp-array-util
  * Description: A clever array utility for WordPress development.
- * Version: 0.1.1
+ * Version: 1.0.0
  * Author: Michael Novotny
  * Author URI: http://manovotny.com
  * License: GPL-3.0+

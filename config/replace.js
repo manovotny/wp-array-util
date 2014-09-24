@@ -17,11 +17,11 @@ module.exports = (function () {
             slug: 'wp-array-util',
             type: 'plugin', // Should be `plugin` or `theme`.
             url: 'https://github.com/manovotny/wp-array-util',
-            version: '0.1.1'
+            version: '1.0.0'
         },
         translations: {
-            domain: 'TRANSLATIONS_DOMAIN',
-            path: 'TRANSLATIONS_PATH'
+            domain: 'wp-array-util',
+            path: 'lang'
         }
     };
 
