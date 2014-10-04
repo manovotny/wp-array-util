@@ -1,6 +1,6 @@
 {
     "name": "wp-array-util",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A clever array utility for WordPress development.",
     "author": "Michael Novotny <http://manovotny.com/>",
     "repository": {

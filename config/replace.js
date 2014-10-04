@@ -17,7 +17,7 @@ module.exports = (function () {
             slug: 'wp-array-util',
             type: 'plugin', // Should be `plugin` or `theme`.
             url: 'https://github.com/manovotny/wp-array-util',
-            version: '1.0.0'
+            version: '1.0.1'
         },
         translations: {
             domain: 'wp-array-util',
