@@ -8,24 +8,18 @@ class WP_Array_Util_Test extends PHPUnit_Framework_TestCase {
     private $items_to_add;
     private $wp_array_util;
 
-    public function random_string() {
-
-        return rtrim( base64_encode( md5( microtime() ) ), '=' );
-
-    }
-
     protected function setUp() {
 
         $this->existing_array = array(
-            $this->random_string(),
-            $this->random_string(),
-            $this->random_string()
+            any_string(),
+            any_string(),
+            any_string()
         );
 
         $this->items_to_add = array(
-            $this->random_string(),
-            $this->random_string(),
-            $this->random_string()
+            any_string(),
+            any_string(),
+            any_string()
         );
 
         $this->wp_array_util = WP_Array_Util::get_instance();
